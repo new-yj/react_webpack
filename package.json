@@ -1,0 +1,34 @@
+{
+  "name": "react_webpack",
+  "version": "1.0.0",
+  "description": "react webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-dev-server": "./node_modules/.bin/webpack-dev-server.cmd --progress --profile --colors --hot",
+    "webpack": "./node_modules/.bin/webpack.cmd --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yijiongwtt/react_webpack.git"
+  },
+  "author": "YiJiong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yijiongwtt/react_webpack/issues"
+  },
+  "homepage": "https://github.com/yijiongwtt/react_webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
